@@ -61,15 +61,13 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-  section{
-    @apply py-10 md:py-16;
-  }
-}
 
+  section{
+    @apply pt-16 md:pt-20 ;
+  };
+
+@layer utilities{
+  .popular_title{
+    @apply text-2xl lg:text-3xl tracking-wider
+  };
+};
