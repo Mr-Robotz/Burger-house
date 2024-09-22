@@ -41,7 +41,7 @@ const PopularBurgers = () => {
         </div>
       </div>
       <div className="conatainer text-center mt-16 flex items-center justify-center">
-        <button  className="bg-yellow-500 text-xl rounded-none text-amber-950 uppercase font-bebasNeue hover:shadow-lg px-5 py-2 tracking-wide transition duration-300">Always taste burger</button>
+        <button  className="bg-[#fcc135] text-xl rounded-none text-amber-950 uppercase font-bebasNeue hover:shadow-lg px-5 py-2 tracking-wide transition duration-300">Always taste burger</button>
       </div>
     </section>
   );

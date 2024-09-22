@@ -70,4 +70,13 @@
   .popular_title{
     @apply text-2xl lg:text-3xl tracking-wider
   };
+  .title{
+    @apply font-alfaSlabOne text-4xl md:text-5xl uppercase mb-5
+  }
+  .sub-title{
+    @apply font-bebasNeue text-2xl md:text-3xl
+  }
+  .red-button{
+    @apply font-alfaSlabOne uppercase text-sm text-white bg-[#df1b1c] px-6 py-2 mt-3 hover:shadow-lg tracking-wide transition duration-300
+  }
 };
