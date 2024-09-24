@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div>
       <div className="flex flex-col items-center md:items-start text-center gap-5 md:flex-row md:justify-between md:text-start">
         <div className="flex flex-col gap-3 py-5 md:w-1/2 md:mt-10 lg:mt-20">
-          <p className="font-bebasNeue border-2 border-dashed border-amber-950 md:w-80 lg:w-3/4 md:px-5 lg:text-xl">
+          <p className="font-bebasNeue border-2 border-dashed border-amber-950 md:w-80 lg:w-3/4 xl:w-2/3  md:px-5 lg:text-xl xl:text-2xl">
             It is a good time for the great taste of burger
           </p>
           <h1

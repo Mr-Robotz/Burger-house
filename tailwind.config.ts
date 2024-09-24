@@ -11,7 +11,8 @@ const config: Config = {
   	screens: {
   		sm: '480px',
   		md: '768px',
-  		lg: '1024px'
+  		lg: '1024px',
+  		xl: '1280px',
   	},
   	extend: {
   		fontFamily: {
@@ -61,11 +62,10 @@ const config: Config = {
   			}
   		},
   		container: {
-  			center: 'true',
+  			center: true,
   			padding: {
-  				DEFAULT: '1rem',
-  				sm: '1.5rem'
-  			}
+  				DEFAULT: '0.5rem',
+  			},
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

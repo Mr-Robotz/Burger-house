@@ -77,4 +77,6 @@ section {
   .red-button {
     @apply font-alfaSlabOne uppercase text-sm text-white bg-[#df1b1c] px-6 py-2 mt-3 hover:shadow-lg tracking-wide transition duration-300 mb-5;
   }
+  .input-style{
+    @apply rounded-md border border-gray-300 p-3 focus:outline-none}
 }

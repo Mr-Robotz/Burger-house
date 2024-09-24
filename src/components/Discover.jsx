@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Discover = () => {
   return (
-    <section className="">
+    <section className="mb-20">
       <div className="container">
         <div className="">
           <div className="flex flex-col md:flex-row md:items-start items-center justify-between p-5 shadow-2xl">

@@ -5,7 +5,7 @@ import ActionButton from "./ui/actionButton"
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between mb-20 shadow-md">
+    <nav className="flex items-center justify-between mb-20">
         <Logo />
         
         <div className="hidden md:block space-y-2">
