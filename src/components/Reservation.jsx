@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Reservation = () => {
   return (
     <div
@@ -13,7 +11,9 @@ const Reservation = () => {
       <div className="container pt-10">
         <div className="text-center">
           <h3 className="sub-title">Reservation</h3>
-          <h2 className="font-alfaSlabOne text-3xl uppercase md-2 md:mb-3 md:text-4xl">Book your table</h2>
+          <h2 className="font-alfaSlabOne text-3xl uppercase md-2 md:mb-3 md:text-4xl">
+            Book your table
+          </h2>
         </div>
         <div className="w-2/3 mx-auto">
           <form action="" className="mt-5 md:mt-12">
